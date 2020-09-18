@@ -1,0 +1,61 @@
+ <!--navbar -->
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"id='logo'>CAN Online Shop</a>
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-trigger="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="offcanvas-header mt-3">
+      <button type='button' class='btn-close float-left'><i class="fa fa-times" aria-hidden="true"></i></button>
+      <h5 class='text-white py-2' style='text-align: right;'>Menu</h5>
+
+    </div>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="{%url 'home'%}">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Profile</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="{%url 'contact'%}">Contact Us</a>
+      </li> 
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Category
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">imyambaro</a>
+          <a class="dropdown-item" href="#">accessory</a>
+          <a class="dropdown-item" href="#">ibyombo</a>
+        </div>
+      </li>
+    </ul>
+
+    <ul class="navbar-nav">
+      <!-- <li class="nav-item hide">
+        <a class="nav-link" href="#"><i class="fa fa-volume-control-phone phone" aria-hidden="true"></i>
+          +91 9876543210 <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item hide">
+        <a class="nav-link" href="#"><i class="fa fa-envelope-o email" aria-hidden="true"></i>
+          info@indiapicturebudget.com</a>
+      </li> -->
+      <li class="nav-item">
+        <a class="nav-link" href="#">Sell</a>
+      </li>
+      <li class="nav-item" >
+        <a class="nav-link" href="#" id='login'>Log In</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" id='signup'>Sign In</a>
+      </li>  
+    </ul> 
+  </div>
+</nav>
